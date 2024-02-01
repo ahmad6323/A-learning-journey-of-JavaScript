@@ -1,0 +1,23 @@
+function sum (number1 , number2){
+     return number1+number2
+}
+const result  = sum(22,33)
+
+console.log(result)
+
+function calculate (...num){  // rest operator
+    return num
+}
+
+console.log(calculate(22,33,44,55,66))
+
+const obj = {
+    name : "ahmad",
+    age: 22
+}
+
+
+function handleObject (anyobj){
+   console.log(`the name of the user is ${anyobj.name} and the age of the user is ${anyobj.age}`)
+}
+handleObject(obj)
